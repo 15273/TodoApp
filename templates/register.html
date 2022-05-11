@@ -1,0 +1,47 @@
+{% include 'layout.html' %}
+
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            Register
+        </div>
+        <div class="card-body">
+            <form>
+                <div class="form-row">
+                    <div class="from-group col-md-6">
+                        <label>Email</label>
+                        <input type="email" class="from-control" name="email" required>
+                    </div>
+                     <div class="from-group col-md-6">
+                        <label>Username</label>
+                        <input type="text" class="from-control" name="username" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="from-group col-md-6">
+                        <label>First Name</label>
+                        <input type="text" class="from-control" name="firstname" required>
+                    </div>
+                     <div class="from-group col-md-6">
+                        <label>Last Name</label>
+                        <input type="text" class="from-control" name="lastname" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" class="form-control" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label>Verify Password</label>
+                    <input type="password" class="form-control" name="password2" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Sign in</button>
+            </form>
+        </div>
+        <div class="card-footer text-muted">
+            <a href="#">Already have an account?</a>
+        </div>
+    </div>
+</div>
+
+
